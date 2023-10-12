@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".autocapture">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="10dp">
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="338dp"
+        android:layout_height="352dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="283dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/iv_image"
+
+        android:layout_alignBottom="@+id/iv_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="-195dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_bg"
+        android:text="Back Camera" />
+</RelativeLayout>
